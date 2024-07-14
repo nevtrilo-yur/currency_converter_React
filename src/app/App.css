@@ -1,0 +1,45 @@
+
+html{
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+*, *::before, *::after{
+  box-sizing: inherit;
+}
+img{
+  display: block;
+  
+}
+
+h1, h2, h3, h4, h5, h6, p{
+  padding: 0;
+  margin: 0;
+  color: #000000;
+}
+ul{
+  list-style-type: none;
+  color: #757272;
+  margin: 0;
+  padding: 0;
+}
+a,
+a:active,
+a:visited{
+  text-decoration: none;
+}
+
+
+
+body{
+  margin: 0 auto;
+  max-width: 1440px;
+}
+
+.container{
+  max-width: 1260px;
+  margin: 0 auto;
+  padding-left: 30px;
+  padding-right: 30px;
+}
+
